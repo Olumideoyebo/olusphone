@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@500;600;800&family=Oswald:wght@500&family=Poppins:wght@100;400;700&family=Roboto+Slab:wght@500&family=Roboto:wght@100;400;500;700&display=swap');
+
+*{
+    font-family: 'Roboto Slab', serif;
+}
+navbar{
+    background: yellow
+
+}
+
+.navbar-brand span{
+    color:white;
+}
+
+.navbar-brand span i{
+    color: yellow;
+}
+
+.navbar. nav-link{
+    font-size: 1.4rem;
+    color: #ffffff;
+}
+
+.navbar .nav-link.active{
+    font-size: 1.4rem;
+    color:#ffffff;
+}
+
+.navbar .nav-link:hover{
+    color:white;
+    background: #000;
+}
+
+  /* curaseoul */
+
+.carousel-inner img{
+    height: 90vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+}
+
+.container .row .image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.intro{
+    color:black
+    text-shadow: .4rem 0 .4rem rgb(5, 79, 79);
+}
+
+.container:hover .card{
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+/* overview-style */
+#overview-banner{
+    background-image: url(/assets/img/iphone6.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* swiper */
+.swiper-button-next, .swiper-button-prev{
+    color: rgb(24, 22, 22);
+}
+
+.swiper-pagination-progressbar  .swiper-pagination-progressbar-fill {
+    background-attachment: red;
+}
+
+footer{
+    background-color: #000000;
+}
